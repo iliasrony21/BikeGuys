@@ -1,0 +1,67 @@
+[
+    {
+        "name": "Sportbike",
+        "price": "400000",
+        "description": "Yamaha R15.The liquid cooled single overhead camshaft fuel injection engine churns out a maximum horse power of 13.5kW(18.4PS)/10000r/min and maximum torque of 14.2N.m (1.4kgf.m) / 7500r/min.",
+        "img":"https://images.unsplash.com/photo-1609630875171-b1321377ee65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=380&q=80",
+        "quantity":10,
+        "supplierName":"Yamaha motors"
+
+    },
+    {
+        "name":"Cruiser",
+        "price":"100000",
+        "description":"Triumph Bonneville Speedmaster 1200 motorcycle. In terms of performance, the bike gets a 1200cc, liquid-cooled, parallel-twin engine with a 270-degree firing order that makes 76.9bhp at 6,100rpm and 106Nm of peak torque at 4,000rpm.",
+        "img": "https://images.unsplash.com/photo-1668183284155-00f283733eb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+        "quantity":10,
+        "supplierName":"Yamaha motors"
+    },
+    {
+        "name": "Dual-sport",
+        "price": "150000",
+        "description": "With electric start and a low seat height, the light, nimble and reliable XT250 is built to go wherever you go. On‑ or off‑road. Adaptable and comfortable with fat tires, a low seat and a smooth ride makes it a practical do‑it‑all, dual purpose machine",
+        "img": "https://cdn1.cycletrader.com/v1/media/633e220295629514ee450b19.jpg?width=1024&height=768&quality=70&bestfit=true&upsize=true&blurBackground=true&blurValue=100&upsize=true",
+        "quantity":10,
+        "supplierName":"Rony"
+    },
+    {
+        "name": "Dresser",
+        "price": "680000",
+        "description": "The R 18 invokes our history and the iconic hallmarks of our brand which we have worked very hard on. A legacy that we live by every day in the spirit of #SoulFuel. The result: a cruiser full of character featuring a boxer engine with the highest cubic capacity we have ever built, plus timeless design features. ",
+        "img": "https://motorbikewriter.com/wp-content/uploads/2020/02/i-7TXnhmk-X3.jpg",
+        "quantity":10,
+        "supplierName":"Rony"
+    },
+    {
+        "name": "Sport-Tourer",
+        "price": "900000",
+        "description": "There is a German proverb along the lines of “anyone who travels with ambitions never travels alone.” This is especially true when you are traveling with someone else. The BMW K 1800 GTL represents both these elements. It offers performance touring that leaves no wishes",
+        "img": "https://ultimatemotorcycling.com/wp-content/uploads/2017/05/201-bmw-motorcycle-pricing-usa-3.jpg",
+        "quantity":10,
+        "supplierName":"Rony"
+    },
+    {
+        "name": "Scooter.",
+        "price": "160000",
+        "description": "If power and style are important to you then look no further. Zoopa Nova is the highest spec'd electric moped available in NZ. Our standard 72V 40Ah (2.88kwh) Lithium-ion battery is the most powerful battery of any electric moped currently available in NZ. That means more power for longer. ",
+        "img": "https://cdn.shopify.com/s/files/1/0248/6357/2073/products/image_c79ad02b-f5d0-4a22-9869-f964f78a10e7_720x.png?v=1636365992",
+        "quantity":10,
+        "supplierName":"Rony"
+    },
+    {
+        "name": "Standard.",
+        "price": "120000",
+        "description": "Small in size but big on fun, the Kawasaki Z125 PRO motorcycle is a nimble streetfighter that makes a statement wherever it goes. With a 125cc engine, upright riding position and responsive street tires, it's your invitation to the rebellious side of fun. ",
+        "img": "https://cdn.dealerspike.com/imglib/v1/1024x1024/imglib/trimsdb/19701321-0-121812421.jpg",
+        "quantity":10,
+        "supplierName":"Rony"
+    },
+    {
+        "name": "Dirt Bike.",
+        "price": "130000",
+        "description": "In motocross and all other off-road disciplines (KTM's main segment) manufacturers strongly adhere to one color to identify themselves. Red for Honda, blue for Yamaha, green for Kawasaki and yellow for Suzuki. ",
+        "img": "https://st2.depositphotos.com/1063296/8337/i/950/depositphotos_83371294-stock-photo-green-dirt-bike-side-view.jpg",
+        "quantity":10,
+        "supplierName":"Rony"
+    }
+]

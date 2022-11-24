@@ -1,0 +1,55 @@
+[
+    {
+        "name": "brown jacket",
+        "price": "220",        
+        "img":"https://cdn.shopify.com/s/files/1/1452/8076/products/71z864yz2hL._AC_UY1000_800x.jpg?v=1636577480"
+
+    },
+
+    {
+        "name": "brown jacket",
+        "price": "320",        
+        "img":"https://www.hugme.fashion/image/cache/catalog/JK204/_T7A5503-800x1019.jpg"
+
+    },
+
+    {
+        "name": "jacket",
+        "price": "320",        
+        "img":"https://www.hugme.fashion/image/cache/catalog/JK203/_T7A5482-800x1019.jpg"
+
+    },
+
+
+    {
+        "name": " jacket",
+        "price": "120",        
+        "img":"https://www.hugme.fashion/image/cache/catalog/JK20/JK20_Black_3-800x1019.jpg"
+
+    },
+    {
+        "name": "jacket",
+        "price": "120",        
+        "img":"https://4.imimg.com/data4/UN/RQ/MY-7963579/leather-bike-jacket-1000x1000.jpg"
+
+    },
+    {
+        "name": "jacket",
+        "price": "120",        
+        "img":"https://5.imimg.com/data5/SELLER/Default/2020/10/YL/XF/QB/1077550/leather-motorcycle-jacket-1000x1000.jpg"
+
+    },
+    {
+        "name": "jacket",
+        "price": "120",        
+        "img":"https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-Men-Racer-Tobacco-110221-1_800x800.jpg?v=1635874604"
+
+    },
+    {
+        "name": "jacket",
+        "price": "120",        
+        "img":"https://cdn.shopify.com/s/files/1/0419/1525/products/1024x1024-RacerJacket-Natural-1_800x800.jpg?v=1574360506"
+
+    }
+    
+]
