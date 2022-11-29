@@ -2,6 +2,9 @@ import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import About from './Components/About/About'
 import Contact from './Components/Contact/Contact'
+import Dashboard from './Components/Dashboard/Dashboard'
+import MyAppointment from './Components/Dashboard/AllDetails'
+import Review from './Components/Dashboard/Review'
 import Header from './Components/Home/Header/Header'
 import Home from './Components/Home/Home'
 import InventoryDetails from './Components/Home/InventoryDetails/InventoryDetails'
@@ -14,6 +17,7 @@ import Login from './Components/LogIn/Login'
 import Signup from './Components/LogIn/Signup'
 import Footer from './Components/Shared/Footer/Footer'
 import RequireAuth from './RequireAuth'
+import AllDetails from './Components/Dashboard/AllDetails'
 
 function App () {
   return (
@@ -31,6 +35,16 @@ function App () {
            <Manage></Manage>
           </RequireAuth>  
         }></Route>
+         <Route path='/dashboard' element={
+          <RequireAuth>
+           <Dashboard></Dashboard>
+          </RequireAuth>  
+        }>
+          <Route index element={<MyAppointment></MyAppointment>} />
+        <Route path="alldetails" element={<AllDetails></AllDetails>} />
+        <Route path="review" element={<Review></Review>} />
+        
+        </Route>
         <Route path='/jacket' element={<Jacket></Jacket>}></Route>
         <Route path='/helmet' element={<Helmet></Helmet>}></Route>
         <Route path='/boots' element={<Boots></Boots>}></Route>

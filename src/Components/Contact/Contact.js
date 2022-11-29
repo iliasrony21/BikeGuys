@@ -1,8 +1,23 @@
-import { EmailJSResponseStatus } from '@emailjs/browser'
+// import { EmailJSResponseStatus } from '@emailjs/browser'
 import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser';
 import './Contact.css'
 import svg from '../../images/contact.svg'
 const Contact = () => {
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_882ykyt', 'template_1ygevew', form.current, 'qPuueJOpW7Qo9Hhf2')
+      .then((result) => {
+          console.log(result.text);
+          
+      }, (error) => {
+          console.log(error.text);
+      });
+      
+  };
   return (
     <div className='flex'>
       <div className='contact1 mt-20'>
@@ -11,7 +26,7 @@ const Contact = () => {
       <div className='contact2'>
         <div className='fullPart mt-20 ml-10 '>
           <div className='right-sided '>
-            <form action='' className='flex flex-col gap-5'>
+            <form ref={form} onSubmit={sendEmail} action='' className='flex flex-col gap-5'>
               <h1 className='text-center text-white text-4xl '>Contact US </h1>
               <input
                 type='text'
